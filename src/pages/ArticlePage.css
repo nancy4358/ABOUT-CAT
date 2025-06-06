@@ -1,6 +1,5 @@
 .article-page {
   padding: 40px 20px;
- 
 }
 
 .article-page h1 {
@@ -15,6 +14,7 @@
   align-items: center;
   margin-bottom: 80px;
   justify-content: center;
+  width: 100%; 
 }
 
 .article.reverse {
@@ -25,34 +25,37 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 30px;
-  max-width: 1000px;
+  gap: 40px;
+  width: 100%; 
+  max-width: 1200px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .article-image {
-  width: 300px;
+  width: 45%; 
+  max-width: 500px; 
   height: auto;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .text-content {
-  max-width: 400px;
+  width: 50%; 
+  max-width: 650px; 
 }
 
 .text-content h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 28px; 
+  margin-bottom: 15px; 
   color: #2d2d2d;
   text-align: left;
 }
 
 .text-content p {
-  font-size: 16px;
+  font-size: 18px; 
   color: #c32727;
-  line-height: 1.6;
+  line-height: 1.8;
   text-align: left;
 }
 
@@ -87,25 +90,26 @@
   .article-content {
     flex-direction: column;
     gap: 20px;
+    width: 100%; 
   }
 
   .article-image {
-    width: 90%;
-    max-width: 320px;
+    width: 90%; 
+    max-width: 350px; 
   }
 
   .text-content {
-    width: 90%;
+    width: 90%; 
     text-align: center;
   }
 
   .text-content h2 {
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
   }
 
   .text-content p {
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
   }
 
