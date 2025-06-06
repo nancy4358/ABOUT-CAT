@@ -1,0 +1,99 @@
+.breed-detail-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.breed-detail-page h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+
+
+.breed-detail-page .breed-detail-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.breed-image {
+  width: 40%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.breed-info {
+  width: 50%;
+  text-align: left;
+  font-size: 18px;
+  color: #555;
+}
+
+.breed-info p {
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.breed-info strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.back-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  position: absolute; 
+  top: 250px; 
+  right: 200px; 
+  border: 2px solid #e26a32;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  transition: background-color 0.3s;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .breed-detail-page h1 {
+    font-size: 28px;
+  }
+
+  .breed-detail-page .breed-detail-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .breed-image {
+    width: 80%; 
+  }
+
+  .breed-info {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .back-button {
+    margin-right: 50px;
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .back-button {
+    right: 20px; 
+    top: 10px; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .back-button {
+    right: 10px; 
+    top: 10px;
+  }
+}
