@@ -35,7 +35,7 @@ function ArticleDetailPage() {
       `
     },
     2: {
-      title: '品種貓、米克斯，我適合養哪種貓？',
+      title: '品種貓、米克斯我適合養哪種貓？',
       image: '/art3.png', 
       content: '純種貓是透過選擇性雜交來培育出獨一無二的生理特徵，這樣選擇性培育的方式也讓每一個特定品種的貓都有著類似的個性。<br/><br/>例如:<br/>布偶貓個性安靜、溫和；挪威森林貓活潑、親人；<br/>美國短毛貓貪玩、好動等等....<br/><br/>這些鮮明的個性有助於飼主更準確的選定符合自身喜好的貓咪。然而為了維持獨特的生理特徵，品種貓近親繁殖的情況層出不窮，因此許多品種貓多患有遺傳疾病，想飼養品種貓的貓友們務必先做好心理準備。<br/><br/>至於米克斯是由英文MIX翻譯而來，顧名思義是由不同品種的貓咪交配繁殖出的下一代。相較品種貓，米克斯的身體較為健康，也不會有遺傳病纏身的問題，但其個性也如牠的血統一般多元豐富，所以飼養米克斯就好比打開驚喜包，總讓人無法預料卻又樂此不疲。<br/><br/>最後呼籲大家，養品種貓還是米克斯並沒有標準答案，所有決定皆取決於個人偏好，然而無論選擇米克斯還是品種貓都務必記住，每一隻貓都是獨立個體，不需要因為品種特殊性或價格而衡量貓咪價值的高低。',
     },
@@ -103,8 +103,9 @@ function ArticleDetailPage() {
 
   return (
     <div className="article-detail-page">
-      <h1>{currentArticle.title}</h1>
-      <button className="back-button-art" onClick={() => navigate(-1)}><i className="fa fa-arrow-left" style={{ color: '#e26a32', fontSize: '24px', marginRight: '10px' }}></i></button> 
+    
+      <h1>{currentArticle.title} </h1>
+      <button className="back-button-art"  onClick={() => navigate(-1)}><i className="fa fa-arrow-left" style={{ color: '#e26a32', fontSize: '24px', marginRight: '10px' }}></i></button> 
 
 
       <div className="article-content">

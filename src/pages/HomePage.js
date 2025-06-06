@@ -84,7 +84,7 @@ function HomePage() {
           <p>帶你瞭解更多關於貓的世界</p>
         </div>
         <div className="image-content">
-          <img src="/01.png" alt="Cat Image" />
+          <img src="/01.png" alt="Cat" />
         </div>
       </div>
 
