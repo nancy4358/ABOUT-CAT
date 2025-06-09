@@ -91,7 +91,7 @@ function HomePage() {
       <div className='image-d'>
         <img src='/h1.png' alt='' />
       </div>
-      <div className='space' style={{height:"100px"}}></div>
+      <div className='space' style={{height:"50px"}}></div>
 
       <div className="scroll-images">
         {images.map((image, index) => (

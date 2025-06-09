@@ -279,7 +279,7 @@
 
   .image-d img {
     position: static;
-    margin: 20px auto;
+    margin: 20px 60px auto;
     display: block;
     width: 150px;
     height: 150px;
@@ -288,7 +288,7 @@
   .scroll-image-item {
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+
   }
 
   .scroll-img {
@@ -305,5 +305,8 @@
   .left-img, .right-img {
     margin-left: 0;
     justify-content: center;
+  }
+  .space{
+    visibility: hidden;
   }
 }
